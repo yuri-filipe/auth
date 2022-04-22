@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    border: 0;
+    display: block;
+    top: 0;
+    bottom: 0;
+ 
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+.img{
+    background-image: url(./image.png);
+    width: 66%;
+    height: 96%;
+    background-size: contain;
+    background-repeat: no-repeat
+ 
+   
+}

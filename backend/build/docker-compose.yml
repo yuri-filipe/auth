@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    build: ./
+    ports:
+      - "1756:1756"
+    command: npm start
+
+# networks:
+#   default:
+#     external:
+#       name: pi
